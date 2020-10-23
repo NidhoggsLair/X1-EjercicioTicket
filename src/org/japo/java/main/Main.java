@@ -106,7 +106,7 @@ public class Main {
             System.out.printf(Locale.ENGLISH, "%-3d x %-12s .......: %-6.2f€u "
                     + " %.2f€%n", cantidad2, producto2, precioU2, precioT2);
             System.out.printf(Locale.ENGLISH, "%-3d x %-12s .......: %-6.2f€u "
-                    + " %.2f€%n", cantidad3, producto3, precioU3, precioT3);
+                    + " %-6.2f€%n", cantidad3, producto3, precioU3, precioT3);
 
             System.out.println("---------------------------------------------");
             System.out.printf(Locale.ENGLISH,
